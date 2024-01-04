@@ -33,7 +33,7 @@ var (
 	errorNode1 = models.Node{}
 )
 
-func TestStudentRoutes_HappyPath(t *testing.T) {
+func TestRoutes_HappyPath(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 
@@ -83,7 +83,7 @@ func TestStudentRoutes_HappyPath(t *testing.T) {
 	}
 }
 
-func TestStudentRoutes_ErrorPath1(t *testing.T) {
+func TestRoutes_ErrorPath1(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 
