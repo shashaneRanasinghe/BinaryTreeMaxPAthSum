@@ -17,8 +17,8 @@ and returns its max path sum.
 
 #### Running Locally
 
-- run `go build -o {binaryName} .\cmd\app\main.go` to build the binary
-- run `.\{binary name}` to run the binary (eg .\binaryTreeMaxPathSum)
+- run `go build -o {binaryName} ./cmd/app/main.go` to build the binary
+- run `./{binary name}` to run the binary (eg ./binaryTreeMaxPathSum)
 
 ### Testing
 
