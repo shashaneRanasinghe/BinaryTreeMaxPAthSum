@@ -24,8 +24,12 @@ and returns its max path sum.
 
 - run `go test -v ./...` to run the unit tests
 - run `go test -v ./... -coverprofile=c.out` to create the cover profile
-- run `go tool cover -html c` to see the
+- run `go tool cover -html c.out` to see the
   coverage of the unit tests
+
+#### Note
+if the c.out file gets created without the out extension
+run `go tool cover -html c`
 
 ## Endpoints
 
